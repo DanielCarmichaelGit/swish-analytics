@@ -1,0 +1,49 @@
+.FilterBar {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 15px;
+    width: calc(100% - 30px);
+    background-color: transparent;
+    column-gap: 15px;
+  }
+  
+  .FilterGroup {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    align-items: start;
+    justify-content: start;
+    height: fit-content;
+    width: fit-content;
+    color: #333;
+  }
+  .FilterGroupRow {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: start;
+    height: fit-content;
+    width: fit-content;
+    color: #333;
+  }
+  
+  .FilterSelect {
+    padding: 0.5rem;
+    border-radius: 5px;
+    min-width: 100px;
+  }
+
+  .FilterSelect:focus {
+    outline: none;
+  }
+
+  .FilterInput {
+    max-height: 35px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #e5e5e5;
+  }

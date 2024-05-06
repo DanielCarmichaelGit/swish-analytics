@@ -1,0 +1,56 @@
+.modalContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    outline: none;
+    overflow-y: auto;
+  }
+  
+  .modalTitle {
+    margin-bottom: 16px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .formField {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .select {
+    width: 100%;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    align-self: flex-end;
+    margin-bottom: 10px !important;
+  }
+
+  .submitButton:hover {
+    scale: 1 !important;
+    border: none;
+  }
+  
+  @media (max-width: 600px) {
+    .modalContent {
+      width: 90%;
+    }
+  }
